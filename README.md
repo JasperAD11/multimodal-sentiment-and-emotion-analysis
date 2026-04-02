@@ -1,50 +1,47 @@
+# Multimodal Sentiment and Emotion Analysis: Neural Networks and Large Language Models
 
-# 🎯 Sentiment Across Signals: Neural Networks vs. LLMs
-
-**EmotionNet** is a class project for *Advanced Topics in Predictive Analytics* at Católica Lisbon. It explores emotion detection from text and speech using neural networks and compares performance with state-of-the-art large language models (LLMs) using Python and TensorFlow.
+This repository contains a class project for Advanced Topics in Predictive Analytics at Católica Lisbon. It examines sentiment and emotion analysis across text and speech data using neural networks and compares selected results with large language models (LLMs) implemented in Python and TensorFlow.
 
 ---
 
-## 📚 Overview
+## Overview
 
 This project investigates the effectiveness of traditional neural networks versus large language models in sentiment and emotion classification tasks. It encompasses:
 
-- **Binary Sentiment Classification**: Utilizing the IMDB dataset to classify text as positive or negative.
-- **Multi-label Emotion Detection**: Employing the GoEmotions dataset to identify multiple emotions present in text.
-- **Speech Emotion Recognition**: Analyzing audio inputs to detect emotions using models like Whisper.
-- **Comparison with LLMs**: Evaluating the performance of models like GPT-3.5 and GPT-4 against traditional neural networks.
+- **Binary Sentiment Classification:** Utilizing the IMDB dataset to classify text as positive or negative.
+- **Multi-label Emotion Detection:** Employing the GoEmotions dataset to identify multiple emotions present in text.
+- **Speech Emotion Recognition:** Analyzing audio inputs to detect emotions using models such as Whisper.
+- **Comparison with LLMs:** Evaluating the performance of models such as GPT-3.5 and GPT-4 against traditional neural networks.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
-```
-Sentiment-Across-Signals-Neural-Networks-vs.-LLMs/
-├── best_model_binary.h5          # Pretrained binary sentiment model
-├── best_model_multi.h5           # Pretrained multi-label emotion model
-├── vectorizer_vocab.txt          # Vocabulary for TextVectorization
-├── df_merged.csv                 # Merged dataset used for training
-├── labels.csv                    # Labels for the datasets
-├── model.py                      # Model architecture definitions
-├── demo.ipynb                    # Demo notebook for model inference
-├── notebook1.ipynb               # Initial data exploration and preprocessing
-├── notebook_final.ipynb          # Final training and evaluation notebook
-├── part2_final.ipynb             # Additional analyses and visualizations
-├── part3_final.ipynb             # Comparative study with LLMs
-├── whisper.ipynb                 # Speech emotion recognition using Whisper
-└── README.md                     # Project documentation
-```
+```text
+multimodal-sentiment-and-emotion-analysis/
+├── binary_sentiment_model.h5                 # Pretrained binary sentiment model
+├── multilabel_emotion_model.h5              # Pretrained multi-label emotion model
+├── text_vectorizer_vocab.txt                # Vocabulary for text vectorization
+├── merged_dataset.csv                       # Merged dataset used for training
+├── emotion_labels.csv                       # Labels for the datasets
+├── model_architecture.py                    # Model architecture definitions
+├── demo_inference.ipynb                     # Demo notebook for model inference
+├── data_preprocessing.ipynb                 # Initial data exploration and preprocessing
+├── training_evaluation.ipynb                # Final training and evaluation notebook
+├── text_analysis_additional.ipynb           # Additional analyses and visualizations
+├── llm_comparison.ipynb                     # Comparative study with LLMs
+├── speech_emotion_recognition_whisper.ipynb # Speech emotion recognition using Whisper
+└── README.md                                # Project documentation
 
 ---
 
-## 🛠️ Setup Instructions
+**Setup section adjustment**
 
-1. **Clone the Repository**
+Change the clone line to:
 
-   ```bash
-   git clone https://github.com/JasperAD11/Sentiment-Across-Signals-Neural-Networks-vs.-LLMs.git
-   cd Sentiment-Across-Signals-Neural-Networks-vs.-LLMs
-   ```
+```bash
+git clone https://github.com/YOUR-USERNAME/multimodal-sentiment-and-emotion-analysis.git
+cd multimodal-sentiment-and-emotion-analysis
 
 2. **Create a Virtual Environment**
 
@@ -143,10 +140,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## 👥 Contributors
+## Contributors
 
-- **António Frutuoso Frade** -
-- **Jasper Sänger** -
-- **João Filipe Alho Afonso** -
-- **Joaquim Firmino da Cunha Reis** -
+- António Frutuoso Frade
+- Jasper Sänger
+- João Filipe Alho Afonso
+- Joaquim Firmino da Cunha Reis
   
