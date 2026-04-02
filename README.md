@@ -22,17 +22,16 @@ multimodal-sentiment-and-emotion-analysis/
 ├── binary_sentiment_model.h5                 # Pretrained binary sentiment model
 ├── multilabel_emotion_model.h5              # Pretrained multi-label emotion model
 ├── text_vectorizer_vocab.txt                # Vocabulary for text vectorization
-├── merged_dataset.csv                       # Merged dataset used for training
-├── emotion_labels.csv                       # Labels for the datasets
+├── merged_dataset.csv                       # Merged dataset used for training and evaluation
+├── emotion_labels.csv                       # Label definitions for the datasets
 ├── model_architecture.py                    # Model architecture definitions
 ├── demo_inference.ipynb                     # Demo notebook for model inference
-├── data_preprocessing.ipynb                 # Initial data exploration and preprocessing
-├── training_evaluation.ipynb                # Final training and evaluation notebook
-├── text_analysis_additional.ipynb           # Additional analyses and visualizations
-├── llm_comparison.ipynb                     # Comparative study with LLMs
+├── binary_sentiment_model_development.ipynb # Binary sentiment model development and comparison
+├── final_models_and_ensemble.ipynb          # Final binary and multi-label models plus ensemble setup
+├── transcript_vs_text_evaluation.ipynb      # Evaluation of original text versus Whisper transcriptions
+├── llm_comparison.ipynb                     # Comparative study with large language models
 ├── speech_emotion_recognition_whisper.ipynb # Speech emotion recognition using Whisper
 └── README.md                                # Project documentation
-
 ---
 
 **Setup section adjustment**
@@ -66,7 +65,7 @@ cd multimodal-sentiment-and-emotion-analysis
 
 ---
 
-## 🚀 Running the Demo
+## Running the Demo
 
 After setting up the environment and downloading the models:
 
@@ -83,7 +82,7 @@ After setting up the environment and downloading the models:
 
 ---
 
-## 📊 Results & Findings
+## Results & Findings
 
 - **Binary Sentiment Model**: Achieved an accuracy of 92% on the IMDB test set.
 - **Multi-label Emotion Model**: Demonstrated a macro F1-score of 0.76 on the GoEmotions dataset.
@@ -92,7 +91,7 @@ After setting up the environment and downloading the models:
 
 ---
 
-## 🤖 Model Architectures
+## Model Architectures
 
 ### Binary Sentiment Model
 
@@ -116,7 +115,7 @@ After setting up the environment and downloading the models:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **Accuracy**: For binary classification tasks.
 - **Precision, Recall, F1-Score**: For multi-label emotion detection.
@@ -125,7 +124,7 @@ After setting up the environment and downloading the models:
 
 ---
 
-## 🧠 Future Work
+## Future Work
 
 - **Model Optimization**: Implementing attention mechanisms to improve performance.
 - **Dataset Expansion**: Incorporating more diverse datasets for better generalization.
@@ -134,7 +133,7 @@ After setting up the environment and downloading the models:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
